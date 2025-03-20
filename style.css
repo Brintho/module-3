@@ -1,0 +1,50 @@
+body {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+}
+
+.task-card {
+    border: 1px solid #ececec;
+    padding: 30px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.task {
+    color: #444;
+    font-size: 18px;
+}
+
+.task-done {
+    text-decoration: line-through;
+    color: #999;
+    font-style: italic;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    padding: 6px 10px;
+}
+
+.task-item button span {
+    display: block;
+    padding: 6px 10px;
+}
+
+.task-item form {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
