@@ -1,14 +1,18 @@
 [
     {
         "task": "project 1",
-        "completed": false
+        "completed": true
     },
     {
         "task": "sammo",
-        "completed": false
+        "completed": true
     },
     {
         "task": "sammo",
-        "completed": false
+        "completed": true
+    },
+    {
+        "task": "project 1",
+        "completed": true
     }
 ]

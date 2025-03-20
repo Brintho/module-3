@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'completed' => false,
         ];
         saveTasks($tasks);
-        header('Location: task.php');
+        header('Location: index.php');
         exit();
     }
 
@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $tasks[$index]['completed'] = ! $tasks[$index]['completed'];
             saveTasks($tasks);
         }
-        header('Location: task.php');
+        header('Location: index.php');
         exit();
     }
 
@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             array_splice($tasks, $index, 1);
             saveTasks($tasks);
         }
-        header('Location: task.php');
+        header('Location: index.php');
         exit();
     }
 }
@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </form>
 
                 <!-- Task List Include -->
-                <?php include 'task_list.php'; ?>
+                <?php include 'task.php'; ?>
 
             </div>
         </div>
